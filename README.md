@@ -10,11 +10,11 @@ The primary purpose is to store the state of an object or send it through a netw
 ### Here im building my own Serlization Logic !
 
 ```csharp
-    [MySerializable]
-    public class Person
-    {
-        [MyRequired] //
-        [MyOrder(0)]  public int? ID;
+[MySerializable]
+public class Person
+{
+    [MyRequired] //
+    [MyOrder(0)]  public int? ID;
         
     [MyDefaultValue("Bob")] //
     [MyOrder(2)]  public string Name { get; set; }
@@ -34,21 +34,22 @@ The primary purpose is to store the state of an object or send it through a netw
     [MyTxtType(typeof(Person))]
     [MyDefaultValue(null)] //
     [MyOrder(3)] public object instance {  get; set; }
-    }
+}
 ```
 
 
 ```csharp
-      Person person = new Person { ID = 4, Name = "Ahmed", City = "Oued", PostalCode = 1006, Age = 2.5 };
+Person person = new Person { ID = 4, Name = "Ahmed", City = "Oued",
+                             PostalCode = 1006, Age = 2.5 };
     
-      mySerializer myserializer = mySerializer.CreateInstance(typeof(Person));
+mySerializer myserializer = mySerializer.CreateInstance(typeof(Person));
       
-      if (myserializer == null) return;
+if (myserializer == null) return;
       
-      using (TextWriter writer = new StreamWriter("myCustomSerializer.txt"))
-      {
-          myserializer.Serializer(writer, person);
-      }
+using (TextWriter writer = new StreamWriter("myCustomSerializer.txt"))
+{
+    myserializer.Serializer(writer, person);
+}
 ```
 
 # Result :
