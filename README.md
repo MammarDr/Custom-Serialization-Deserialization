@@ -9,7 +9,7 @@ The primary purpose is to store the state of an object or send it through a netw
 
 ### Here im building my own Serlization Logic !
 
-
+```csharp
     [MySerializable]
     public class Person
     {
@@ -35,10 +35,10 @@ The primary purpose is to store the state of an object or send it through a netw
     [MyDefaultValue(null)] //
     [MyOrder(3)] public object instance {  get; set; }
     }
+```
 
 
-
-
+```csharp
       Person person = new Person { ID = 4, Name = "Ahmed", City = "Oued", PostalCode = 1006, Age = 2.5 };
     
       mySerializer myserializer = mySerializer.CreateInstance(typeof(Person));
@@ -49,7 +49,7 @@ The primary purpose is to store the state of an object or send it through a netw
       {
           myserializer.Serializer(writer, person);
       }
-
+```
 
 # Result :
 
