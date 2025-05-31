@@ -1,0 +1,11 @@
+{
+ "Type" : "Person",
+ "Data" : {
+   "ID" : 4,
+   "Age" : 2.5,
+   "Name" : "Ahmed",
+   "instance" : NULL,
+   "ZipCode" : 1006,
+   "isAlive" : True
+   }
+}
