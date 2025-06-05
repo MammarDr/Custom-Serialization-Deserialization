@@ -1,4 +1,4 @@
-# Custom-Serlization-Deserlization
+# Custom-Serializer-Deserializer
 
 
 ## What is Serlization ?
