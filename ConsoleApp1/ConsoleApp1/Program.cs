@@ -1,20 +1,11 @@
-﻿using System;
-using System.Xml.Serialization;
+using System;
 using System.Reflection;
 using System.IO;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.ConstrainedExecution;
-using System.Collections.Specialized;
-using System.Security.Cryptography;
-using System.CodeDom;
-using System.Diagnostics;
-using Microsoft.SqlServer.Server;
 using System.Collections;
 using System.Text.RegularExpressions;
-using System.Threading;
-
 
 namespace MySerilization
 {
@@ -53,8 +44,8 @@ namespace MySerilization
 
     /*
      * My Custom Attributes
-     * Required - Default - Order - Ignore - NickName
-     * Serializable - NonSerializable
+     * Required - Default - Order - NickName
+     * Serializable - NonSerializable(Ignore)
      */
 
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
@@ -173,7 +164,7 @@ namespace MySerilization
                         StrongList.Remove(obj);
                 }
 
-                else if (MyUtility.IsSimpleType(obj.GetType()) && MyAttributes.TestPattern(obj, pattern) == null)
+                else if (MyUtility.IsSimpleType(obj?.GetType()) && MyAttributes.TestPattern(obj, pattern) == null)
                     StrongList.Remove(obj);
 
             } 
@@ -247,17 +238,17 @@ namespace MySerilization
             return type != null && CreateKeyValueFormat(sb, "Type", type.Name);
         }
 
-        static public bool CreateKeyValueFormat(StringBuilder sb, String Key, object Value, bool isKeyObject = false)
+        static public bool CreateKeyValueFormat(StringBuilder sb, String Key, object Value, string spacing = "  ")
         {
-            sb.Append((isKeyObject ? "\n   " : "\n ") + $"\"{Key}\" : {FormatValue(Value)},");
+            sb.Append("\n" + spacing + $"\"{Key}\" : {FormatValue(Value)},");
             return true;
         }
 
-        static public bool CreateKeyObjectFormat(StringBuilder sb, String Property, MemberInfo[] members, object obj)
+        static public bool CreateKeyObjectFormat(StringBuilder sb, String Property, MemberInfo[] members, object obj, string spacing = "  ")
         {
             if (members == null || obj == null) return false;
 
-            sb.Append($"\n \"{Property}\" : ");
+            sb.Append($"\n{spacing}\"{Property}\" : ");
 
             OpenWrapper(sb);
 
@@ -284,8 +275,18 @@ namespace MySerilization
 
 
                 object value = member is PropertyInfo prop ? prop.GetValue(obj) :
-                               member is FieldInfo field ? field.GetValue(obj) : null;
+                    member is FieldInfo field ? field.GetValue(obj) : null;
 
+                Type memberType = member is PropertyInfo p ? p.PropertyType :
+                                    member is FieldInfo f ? f.FieldType : null;
+
+                if (value != null && memberType == typeof(object))
+                {
+                    MyJSONSerializer serializer = MyJSONSerializer.CreateInstance(value.GetType());
+                    CreateKeyObjectFormat(sb, Key, serializer.AppendMembersToList(), value, $"{spacing}  ");
+                    continue;
+                }
+ 
                 bool IsRequired = member.IsDefined(typeof(MyRequiredAttribute), false);
 
                 // Attribute.IsDefined(member, typeof(MyDefaultValueAttribute))
@@ -307,10 +308,10 @@ namespace MySerilization
 
                 if (value == null && IsRequired) return false;
 
-                CreateKeyValueFormat(sb, Key, value, true);
+                CreateKeyValueFormat(sb, Key, value, $"{spacing}  ");
             }
 
-            CloseWrapper(sb, true);
+            CloseWrapper(sb, spacing);
 
             return true;
         }
@@ -326,10 +327,10 @@ namespace MySerilization
             sb.Append("{");
         }
 
-        static public void CloseWrapper(StringBuilder sb, bool isKeyObject = false)
+        static public void CloseWrapper(StringBuilder sb, string spacing = "")
         {
             FinalizeFormat(sb);
-            sb.Append((isKeyObject ? "   " : "") + "},");
+            sb.Append(spacing + "},");
         }
 
         static public bool Deformat(ref string data)
@@ -355,7 +356,15 @@ namespace MySerilization
         protected Type _type;
         protected ushort _fields_size;
         protected ushort _property_size;
-        protected ushort _method_size;  
+        protected ushort _method_size;
+
+        protected MySerializer(Type type)
+        {
+            _type = type;
+            _fields_size = (ushort)type.GetFields().Count();
+            _property_size = (ushort)type.GetProperties().Count();
+            _method_size = (ushort)type.GetMethods().Count();
+        }
 
         public abstract bool Serialize(TextWriter writer, object obj);
 
@@ -429,13 +438,8 @@ namespace MySerilization
     public class MyJSONSerializer : MySerializer 
     {
 
-        private MyJSONSerializer(Type type)
-        {
-            _type = type;
-            _fields_size = (ushort)type.GetFields().Count();
-            _property_size = (ushort)type.GetProperties().Count();
-            _method_size = (ushort)type.GetMethods().Count();
-        }
+        private MyJSONSerializer(Type type) : base(type) { }
+   
 
         /// <summary>
         /// Creates a serializer instance for the specified type, unless it is marked as non-serializable.
@@ -553,7 +557,6 @@ namespace MySerilization
     public class Program
     {
 
-
         static void Main(string[] args)
         {
 
@@ -584,7 +587,7 @@ namespace MySerilization
             }
 
             Console.WriteLine("\n-------------------------------------------\n");
-
+          
             var product2 = new Product
             {
                 Name = null, // Should trigger [MyRequired]
@@ -668,15 +671,3 @@ namespace MySerilization
         }
     }
 }
-
-/* using(TextReader reader = new StreamReader("myCustomSerializer.txt"))
-           {
-               Product rePerson = (Product)myserializer.Deserializer(reader);
-           } */
-
-/*  XmlSerializer serializer = new XmlSerializer(typeof(Person));
-
-            using (TextWriter writer = new StreamWriter("file.xml"))
-            {
-                serializer.Serialize(writer, person);
-            } */
