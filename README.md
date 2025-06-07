@@ -9,7 +9,14 @@ The primary purpose is to store the state of an object or send it through a netw
 
 ### Here im building my own Serlization Logic !
 
-#### Targeted Class
+## Features
+Custom Attributes: Define serialization behavior using attributes like [MyRequired], [MyOrder], [MyDefaultValue], [MyNickName], [MyPattern], and [MyNonSerializable].
+
+Reflection-Based Serialization: Dynamically serialize objects based on their metadata.
+
+Flexible JSON Output: Customize property names, order, default values, and validation patterns.
+
+## Targeted Class
 ```csharp
 [MySerializable]
 public class Product
@@ -55,7 +62,7 @@ public class Product
 }
 ```
 
-#### Declaration
+## Declaration
 ```csharp
 MyJSONSerializer myserializer = MyJSONSerializer.CreateInstance(typeof(Product));
 
@@ -85,6 +92,17 @@ using (TextWriter writer = new StreamWriter("myCustomSerializer.txt"))
 }
 ```
 
+## Notes
+Properties marked with [MyNonSerializable] are excluded from the output.
+
+[MyNickName] allows renaming properties in the serialized JSON.
+
+[MyOrder] determines the order of properties in the output.
+
+[MyDefaultValue] assigns default values if none are provided.
+
+[MyPattern] can be used to validate property values against regular expressions.
+
 # Result :
 
 Product 01 :
@@ -106,3 +124,21 @@ Product 01 :
     }
   }
 }
+
+
+# Usage
+
+
+1- Clone the repository:
+
+```bash
+git clone https://github.com/MammarDr/Custom-Serlization-Deserlization.git
+```
+
+2- Navigate to the project directory:
+
+```bash
+cd Custom-Serlization-Deserlization
+```
+
+3- Build and run the project using your preferred IDE or the .NET CLI.
