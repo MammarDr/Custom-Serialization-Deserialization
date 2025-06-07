@@ -9,6 +9,7 @@ The primary purpose is to store the state of an object or send it through a netw
 
 ### Here im building my own Serlization Logic !
 
+#### Targeted Class
 ```csharp
 [MySerializable]
 public class Product
@@ -26,7 +27,7 @@ public class Product
     [MyNickName("Label")]
     public string Name { get; set; }
 
-    [MyPattern("^[A-Z]{2}-\\d{4}$")] // e.g., AB-1234
+    [MyPattern("^[A-Z]{2}-\\d{4}$")]
     [MyOrder(4)]
     public string SKU { get; set; }
 
@@ -54,7 +55,7 @@ public class Product
 }
 ```
 
-
+#### Declaration
 ```csharp
 MyJSONSerializer myserializer = MyJSONSerializer.CreateInstance(typeof(Product));
 
@@ -79,7 +80,8 @@ Product product1 = new Product
 using (TextWriter writer = new StreamWriter("myCustomSerializer.txt"))
 {
     Console.WriteLine("Product 01 :");
-    if (!myserializer.Serialize(writer, product1)) Console.WriteLine("\nFailed to serialize the object\n");
+    if (!myserializer.Serialize(writer, product1))
+        Console.WriteLine("\nFailed to serialize the object\n");
 }
 ```
 
