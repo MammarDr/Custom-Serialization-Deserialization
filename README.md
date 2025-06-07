@@ -122,6 +122,7 @@ Properties marked with [MyNonSerializable] are excluded from the output.
 
 # Result :
 
+```
 Product 01 :
 {
   "Type" : "Product",
@@ -141,7 +142,7 @@ Product 01 :
     }
   }
 }
-
+```
 
 
 
