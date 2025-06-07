@@ -1,20 +1,11 @@
 using System;
-using System.Xml.Serialization;
 using System.Reflection;
 using System.IO;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.ConstrainedExecution;
-using System.Collections.Specialized;
-using System.Security.Cryptography;
-using System.CodeDom;
-using System.Diagnostics;
-using Microsoft.SqlServer.Server;
 using System.Collections;
 using System.Text.RegularExpressions;
-using System.Threading;
-
 
 namespace MySerilization
 {
