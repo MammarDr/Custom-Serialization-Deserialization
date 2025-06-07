@@ -11,57 +11,96 @@ The primary purpose is to store the state of an object or send it through a netw
 
 ```csharp
 [MySerializable]
-public class Person
+public class Product
 {
-    [MyRequired] //
-    [MyOrder(0)]  public int? ID;
-        
-    [MyDefaultValue("Bob")] //
-    [MyOrder(2)]  public string Name { get; set; }
+    [MyRequired]
+    [MyOrder(0)]
+    public Guid? ProductId { get; set; }
 
-    [MyNonSerializable] //
-    public string City { get; set; }
+    [MyDefaultValue("N/A")]
+    [MyOrder(2)]
+    public string Description { get; set; }
 
-    [MyDefaultValue(true)] //
-    [MyOrder(5)] public bool? isAlive { get; set; }
+    [MyRequired]
+    [MyOrder(1)]
+    [MyNickName("Label")]
+    public string Name { get; set; }
 
-    [MyNickName("ZipCode")] //
-    [MyOrder(4)] public int? PostalCode { get; set; }
+    [MyPattern("^[A-Z]{2}-\\d{4}$")] // e.g., AB-1234
+    [MyOrder(4)]
+    public string SKU { get; set; }
 
-    [MyDefaultValue(18)] //
-    [MyOrder(1)] public double? Age { get; set; }
+    [MyDefaultValue(0.0)]
+    [MyOrder(3)]
+    public double? Price { get; set; }
 
-    [MyTxtType(typeof(Person))]
-    [MyDefaultValue(null)] //
-    [MyOrder(3)] public object instance {  get; set; }
+    [MyDefaultValue(true)]
+    [MyOrder(5)]
+    public bool? IsAvailable { get; set; }
+
+    [MyNonSerializable]
+    public string InternalNotes { get; set; }
+
+    [MyPattern("^cat")]
+    public List<string> Categories { get; set; }
+
+    [MyPattern("^feat")]
+    public object[] Features { get; set; }
+
+    public int[] Ratings { get; set; }
+
+    [MyDefaultValue(null)]
+    public object Metadata { get; set; }
 }
 ```
 
 
 ```csharp
-Person person = new Person { ID = 4, Name = "Ahmed", City = "Oued",
-                             PostalCode = 1006, Age = 2.5 };
-    
-mySerializer myserializer = mySerializer.CreateInstance(typeof(Person));
-      
+MyJSONSerializer myserializer = MyJSONSerializer.CreateInstance(typeof(Product));
+
 if (myserializer == null) return;
-      
+
+
+Product product1 = new Product
+{
+    ProductId = Guid.NewGuid(),
+    Name = "Laptop",
+    Description = "High-end gaming laptop",
+    Price = 1499.99,
+    SKU = "EL-2023",
+    IsAvailable = true,
+    InternalNotes = "Check supplier ID 3345",
+    Categories = new List<string> { "catElectronics", "catGaming" },
+    Features = new object[] { "featureRGB", "featureCooling" },
+    Ratings = new int[] { 5, 4, 4, 5 },
+    Metadata = new { Warranty = "2 years", Color = "Black" }
+};
+
 using (TextWriter writer = new StreamWriter("myCustomSerializer.txt"))
 {
-    myserializer.Serializer(writer, person);
+    Console.WriteLine("Product 01 :");
+    if (!myserializer.Serialize(writer, product1)) Console.WriteLine("\nFailed to serialize the object\n");
 }
 ```
 
 # Result :
 
-    {
-     "Type" : "Person",
-     "Data" : {
-       "ID" : 4,
-       "Age" : 2.5,
-       "Name" : "Ahmed",
-       "instance" : NULL,
-       "ZipCode" : 1006,
-       "isAlive" : True
-       }
+Product 01 :
+{
+  "Type" : "Product",
+  "Data" : {
+    "ProductId" : 132cd722-d3e2-4e7f-80f4-461f7719c540,
+    "Label" : "Laptop",
+    "Description" : "High-end gaming laptop",
+    "Price" : 1499.99,
+    "SKU" : "EL-2023",
+    "IsAvailable" : true,
+    "Categories" : ["catElectronics","catGaming"],
+    "Features" : ["featureRGB","featureCooling"],
+    "Ratings" : [5,4,4,5],
+    "Metadata" : {
+      "Warranty" : "2 years",
+      "Color" : "Black"
     }
+  }
+}
