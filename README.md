@@ -103,7 +103,9 @@ Properties marked with [MyNonSerializable] are excluded from the output.
 
 [MyPattern] can be used to validate property values against regular expressions.
 
+
 # Result :
+
 
 Product 01 :
 {
