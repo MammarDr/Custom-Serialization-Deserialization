@@ -15,13 +15,13 @@ The primary purpose is to store the state of an object or send it through a netw
 1- Clone the repository:
 
 ```bash
-git clone https://github.com/MammarDr/Custom-Serlization-Deserlization.git
+git clone https://github.com/MammarDr/Custom-Serialization-Deserialization.git
 ```
 
 2- Navigate to the project directory:
 
 ```bash
-cd Custom-Serlization-Deserlization
+cd Custom-Serialization-Deserialization
 ```
 
 3- Build and run the project using your preferred IDE or the .NET CLI.
