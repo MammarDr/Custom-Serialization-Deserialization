@@ -78,6 +78,17 @@ public class Product
     public object Metadata { get; set; }
 }
 ```
+## Notes
+Properties marked with [MyNonSerializable] are excluded from the output.
+
+[MyNickName] allows renaming properties in the serialized JSON.
+
+[MyOrder] determines the order of properties in the output.
+
+[MyDefaultValue] assigns default values if none are provided.
+
+[MyPattern] can be used to validate property values against regular expressions.
+
 
 ## Declaration
 ```csharp
@@ -108,17 +119,6 @@ using (TextWriter writer = new StreamWriter("myCustomSerializer.txt"))
         Console.WriteLine("\nFailed to serialize the object\n");
 }
 ```
-
-## Notes
-Properties marked with [MyNonSerializable] are excluded from the output.
-
-[MyNickName] allows renaming properties in the serialized JSON.
-
-[MyOrder] determines the order of properties in the output.
-
-[MyDefaultValue] assigns default values if none are provided.
-
-[MyPattern] can be used to validate property values against regular expressions.
 
 # Result :
 
