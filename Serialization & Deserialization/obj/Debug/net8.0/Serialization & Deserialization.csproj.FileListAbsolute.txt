@@ -1,0 +1,70 @@
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\Serialization & Deserialization.exe
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\Serialization & Deserialization.deps.json
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\Serialization & Deserialization.runtimeconfig.json
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\Serialization & Deserialization.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\Serialization & Deserialization.pdb
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\Akka.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\xunit.assert.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\xunit.core.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\xunit.execution.dotnet.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.csproj.AssemblyReference.cache
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.AssemblyInfoInputs.cache
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.AssemblyInfo.cs
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.csproj.CoreCompileInputs.cache
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\obj\Debug\net8.0\Serializ.6F21BF48.Up2Date
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\obj\Debug\net8.0\refint\Serialization & Deserialization.dll
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.pdb
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.genruntimeconfig.cache
+C:\Users\Shadow\source\repos\Serialization & Deserialization\Serialization & Deserialization\obj\Debug\net8.0\ref\Serialization & Deserialization.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\Serialization & Deserialization.exe
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\Serialization & Deserialization.deps.json
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\Serialization & Deserialization.runtimeconfig.json
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\Serialization & Deserialization.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\Serialization & Deserialization.pdb
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\Akka.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\xunit.assert.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\xunit.core.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\xunit.execution.dotnet.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.csproj.AssemblyReference.cache
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.AssemblyInfoInputs.cache
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.AssemblyInfo.cs
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.csproj.CoreCompileInputs.cache
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\obj\Debug\net8.0\Serializ.6F21BF48.Up2Date
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\obj\Debug\net8.0\refint\Serialization & Deserialization.dll
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.pdb
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\obj\Debug\net8.0\Serialization & Deserialization.genruntimeconfig.cache
+C:\Users\Shadow\source\repos\Serialize & Deserialize Project - JSON\Serialization & Deserialization\obj\Debug\net8.0\ref\Serialization & Deserialization.dll

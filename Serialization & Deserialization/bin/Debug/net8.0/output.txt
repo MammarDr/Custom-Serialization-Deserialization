@@ -1,0 +1,1093 @@
+{
+  "Type":"RootObject",
+  "Data":"{
+    "String":"example",
+    "Number":12345,
+    "Float":123.456,
+    "BooleanTrue":true,
+    "BooleanFalse":false,
+    "NullValue":null,
+    "EmptyArray":[],
+    "ArrayOfNulls":[null,null,null],
+    "ArrayOfPrimitives":["a",1,false],
+    "ArrayOfArrays":[[1,2],["x","y"],[true,false]],
+    "ArrayOfObjects":[{
+        "Id":1,
+        "Name":"Alice",
+        "Tags":null,
+        "Details":null
+    },{
+        "Id":2,
+        "Name":"Bob",
+        "Tags":["dev","qa"],
+        "Details":null
+    },{
+        "Id":3,
+        "Name":null,
+        "Tags":null,
+        "Details":{
+            "Joined":"2020-01-01",
+            "Active":true
+        }
+    }],
+    "NestedObject":{
+        "Level1":{
+            "Level2":{
+                "Level3":{
+                    "Value":"deep",
+                    "List":[1,2,3],
+                    "Child":{
+                        "Key":"value",
+                        "Final":true
+                    }
+                }
+            }
+        }
+    },
+    "Dictionary":{
+        "Meta":{
+            "Author":"mark",
+            "Editor":"john"
+        },
+        "Title":"book",
+        "Tags":["novel","mystery","classic"],
+        "Published":{
+            "Year":1999,
+            "Languages":["en","fr","ar"]
+        },
+        "AnonymObject":{
+            "Years":"2 years",
+            "Color":"Green",
+            "Data":{
+                "Ids":[101,102,103],
+                "EmptyDict":{
+
+                },
+                "DeepNulls":{
+                  "one":null,
+                  "two":null
+                }
+            }
+        }
+    },
+    "SpecialCharacters":{
+        "Quote":""double quote"",
+        "Backslash":"\",
+        "Newline":"line\nbreak",
+        "Tab":"tab\tspace",
+        "UnicodeSmile":"☺",
+        "Arabic":"مرحبا",
+        "Chinese":"你好",
+        "Emoji":"💡"
+    }
+  }"
+}{
+  "Type":"RootObject",
+  "Data":"{\n    "String":"example",\n    "Number":12345,\n    "Float":123.456,\n    "BooleanTrue":true,\n    "BooleanFalse":false,\n    "NullValue":null,\n    "EmptyArray":[],\n    "ArrayOfNulls":[null,null,null],\n    "ArrayOfPrimitives":["a",1,false],\n    "ArrayOfArrays":[[1,2],["x","y"],[true,false]],\n    "ArrayOfObjects":[{\n        "Id":1,\n        "Name":"Alice",\n        "Tags":null,\n        "Details":null\n    },{\n        "Id":2,\n        "Name":"Bob",\n        "Tags":["dev","qa"],\n        "Details":null\n    },{\n        "Id":3,\n        "Name":null,\n        "Tags":null,\n        "Details":{\n            "Joined":"2020-01-01",\n            "Active":true\n        }\n    }],\n    "NestedObject":{\n        "Level1":{\n            "Level2":{\n                "Level3":{\n                    "Value":"deep",\n                    "List":[1,2,3],\n                    "Child":{\n                        "Key":"value",\n                        "Final":true\n                    }\n                }\n            }\n        }\n    },\n    "Dictionary":{\n        "Meta":{\n            "Author":"mark",\n            "Editor":"john"\n        },\n        "Title":"book",\n        "Tags":["novel","mystery","classic"],\n        "Published":{\n            "Year":1999,\n            "Languages":["en","fr","ar"]\n        },\n        "AnonymObject":{\n            "Years":"2 years",\n            "Color":"Green",\n            "Data":{\n                "Ids":[101,102,103],\n                "EmptyDict":{\n\n                },\n                "DeepNulls":{\n                  "one":null,\n                  "two":null\n                }\n            }\n        }\n    },\n    "SpecialCharacters":{\n        "Quote":""double quote"",\n        "Backslash":"\",\n        "Newline":"line\nbreak",\n        "Tab":"tab\tspace",\n        "UnicodeSmile":"☺",\n        "Arabic":"مرحبا",\n        "Chinese":"你好",\n        "Emoji":"💡"\n    }\n  }"
+}{
+  "Type":"RootObject",
+  "Data":"{
+    "String":"example",
+    "Number":12345,
+    "Float":123.456,
+    "BooleanTrue":true,
+    "BooleanFalse":false,
+    "NullValue":null,
+    "EmptyArray":[],
+    "ArrayOfNulls":[null,null,null],
+    "ArrayOfPrimitives":["a",1,false],
+    "ArrayOfArrays":[[1,2],["x","y"],[true,false]],
+    "ArrayOfObjects":[{
+        "Id":1,
+        "Name":"Alice",
+        "Tags":null,
+        "Details":null
+    },{
+        "Id":2,
+        "Name":"Bob",
+        "Tags":["dev","qa"],
+        "Details":null
+    },{
+        "Id":3,
+        "Name":null,
+        "Tags":null,
+        "Details":{
+            "Joined":"2020-01-01",
+            "Active":true
+        }
+    }],
+    "NestedObject":{
+        "Level1":{
+            "Level2":{
+                "Level3":{
+                    "Value":"deep",
+                    "List":[1,2,3],
+                    "Child":{
+                        "Key":"value",
+                        "Final":true
+                    }
+                }
+            }
+        }
+    },
+    "Dictionary":{
+        "Meta":{
+            "Author":"mark",
+            "Editor":"john"
+        },
+        "Title":"book",
+        "Tags":["novel","mystery","classic"],
+        "Published":{
+            "Year":1999,
+            "Languages":["en","fr","ar"]
+        },
+        "AnonymObject":{
+            "Years":"2 years",
+            "Color":"Green",
+            "Data":{
+                "Ids":[101,102,103],
+                "EmptyDict":{
+
+                },
+                "DeepNulls":{
+                  "one":null,
+                  "two":null
+                }
+            }
+        }
+    },
+    "SpecialCharacters":{
+        "Quote":""double quote"",
+        "Backslash":"\",
+        "Newline":"line\nbreak",
+        "Tab":"tab\tspace",
+        "UnicodeSmile":"☺",
+        "Arabic":"مرحبا",
+        "Chinese":"你好",
+        "Emoji":"💡"
+    }
+  }"
+}{
+  "Type":"RootObject",
+  "Data":"{\n    "String":"example",\n    "Number":12345,\n    "Float":123.456,\n    "BooleanTrue":true,\n    "BooleanFalse":false,\n    "NullValue":null,\n    "EmptyArray":[],\n    "ArrayOfNulls":[null,null,null],\n    "ArrayOfPrimitives":["a",1,false],\n    "ArrayOfArrays":[[1,2],["x","y"],[true,false]],\n    "ArrayOfObjects":[{\n        "Id":1,\n        "Name":"Alice",\n        "Tags":null,\n        "Details":null\n    },{\n        "Id":2,\n        "Name":"Bob",\n        "Tags":["dev","qa"],\n        "Details":null\n    },{\n        "Id":3,\n        "Name":null,\n        "Tags":null,\n        "Details":{\n            "Joined":"2020-01-01",\n            "Active":true\n        }\n    }],\n    "NestedObject":{\n        "Level1":{\n            "Level2":{\n                "Level3":{\n                    "Value":"deep",\n                    "List":[1,2,3],\n                    "Child":{\n                        "Key":"value",\n                        "Final":true\n                    }\n                }\n            }\n        }\n    },\n    "Dictionary":{\n        "Meta":{\n            "Author":"mark",\n            "Editor":"john"\n        },\n        "Title":"book",\n        "Tags":["novel","mystery","classic"],\n        "Published":{\n            "Year":1999,\n            "Languages":["en","fr","ar"]\n        },\n        "AnonymObject":{\n            "Years":"2 years",\n            "Color":"Green",\n            "Data":{\n                "Ids":[101,102,103],\n                "EmptyDict":{\n\n                },\n                "DeepNulls":{\n                  "one":null,\n                  "two":null\n                }\n            }\n        }\n    },\n    "SpecialCharacters":{\n        "Quote":""double quote"",\n        "Backslash":"\",\n        "Newline":"line\nbreak",\n        "Tab":"tab\tspace",\n        "UnicodeSmile":"☺",\n        "Arabic":"مرحبا",\n        "Chinese":"你好",\n        "Emoji":"💡"\n    }\n  }"
+}{
+  "Type":"RootObject",
+  "Data":"{
+    "String":"example",
+    "Number":12345,
+    "Float":123.456,
+    "BooleanTrue":true,
+    "BooleanFalse":false,
+    "NullValue":null,
+    "EmptyArray":[],
+    "ArrayOfNulls":[null,null,null],
+    "ArrayOfPrimitives":["a",1,false],
+    "ArrayOfArrays":[[1,2],["x","y"],[true,false]],
+    "ArrayOfObjects":[{
+        "Id":1,
+        "Name":"Alice",
+        "Tags":null,
+        "Details":null
+    },{
+        "Id":2,
+        "Name":"Bob",
+        "Tags":["dev","qa"],
+        "Details":null
+    },{
+        "Id":3,
+        "Name":null,
+        "Tags":null,
+        "Details":{
+            "Joined":"2020-01-01",
+            "Active":true
+        }
+    }],
+    "NestedObject":{
+        "Level1":{
+            "Level2":{
+                "Level3":{
+                    "Value":"deep",
+                    "List":[1,2,3],
+                    "Child":{
+                        "Key":"value",
+                        "Final":true
+                    }
+                }
+            }
+        }
+    },
+    "Dictionary":{
+        "Meta":{
+            "Author":"mark",
+            "Editor":"john"
+        },
+        "Title":"book",
+        "Tags":["novel","mystery","classic"],
+        "Published":{
+            "Year":1999,
+            "Languages":["en","fr","ar"]
+        },
+        "AnonymObject":{
+            "Years":"2 years",
+            "Color":"Green",
+            "Data":{
+                "Ids":[101,102,103],
+                "EmptyDict":{
+
+                },
+                "DeepNulls":{
+                  "one":null,
+                  "two":null
+                }
+            }
+        }
+    },
+    "SpecialCharacters":{
+        "Quote":""double quote"",
+        "Backslash":"\",
+        "Newline":"line\nbreak",
+        "Tab":"tab\tspace",
+        "UnicodeSmile":"☺",
+        "Arabic":"مرحبا",
+        "Chinese":"你好",
+        "Emoji":"💡"
+    }
+  }"
+}{
+  "Type":"RootObject",
+  "Data":"{
+    "String":example,
+    "Number":12345,
+    "Float":123.456,
+    "BooleanTrue":true,
+    "BooleanFalse":false,
+    "NullValue":null,
+    "EmptyArray":[],
+    "ArrayOfNulls":[null,null,null],
+    "ArrayOfPrimitives":[a,1,false],
+    "ArrayOfArrays":[[1,2],[x,y],[true,false]],
+    "ArrayOfObjects":[{
+        "Id":1,
+        "Name":Alice,
+        "Tags":null,
+        "Details":null
+    },{
+        "Id":2,
+        "Name":Bob,
+        "Tags":[dev,qa],
+        "Details":null
+    },{
+        "Id":3,
+        "Name":null,
+        "Tags":null,
+        "Details":{
+            "Joined":2020-01-01,
+            "Active":true
+        }
+    }],
+    "NestedObject":{
+        "Level1":{
+            "Level2":{
+                "Level3":{
+                    "Value":deep,
+                    "List":[1,2,3],
+                    "Child":{
+                        "Key":value,
+                        "Final":true
+                    }
+                }
+            }
+        }
+    },
+    "Dictionary":{
+        "Meta":{
+            "Author":mark,
+            "Editor":john
+        },
+        "Title":book,
+        "Tags":[novel,mystery,classic],
+        "Published":{
+            "Year":1999,
+            "Languages":[en,fr,ar]
+        },
+        "AnonymObject":{
+            "Years":2 years,
+            "Color":Green,
+            "Data":{
+                "Ids":[101,102,103],
+                "EmptyDict":{
+
+                },
+                "DeepNulls":{
+                  "one":null,
+                  "two":null
+                }
+            }
+        }
+    },
+    "SpecialCharacters":{
+        "Quote":"double quote",
+        "Backslash":\,
+        "Newline":line
+break,
+        "Tab":tab	space,
+        "UnicodeSmile":☺,
+        "Arabic":مرحبا,
+        "Chinese":你好,
+        "Emoji":💡
+    }
+  }"
+}{
+  "Type":"RootObject",
+  "Data":"{
+    "String":"example",
+    "Number":12345,
+    "Float":123.456,
+    "BooleanTrue":true,
+    "BooleanFalse":false,
+    "NullValue":null,
+    "EmptyArray":[],
+    "ArrayOfNulls":[null,null,null],
+    "ArrayOfPrimitives":["a",1,false],
+    "ArrayOfArrays":[[1,2],["x","y"],[true,false]],
+    "ArrayOfObjects":[{
+        "Id":1,
+        "Name":"Alice",
+        "Tags":null,
+        "Details":null
+    },{
+        "Id":2,
+        "Name":"Bob",
+        "Tags":["dev","qa"],
+        "Details":null
+    },{
+        "Id":3,
+        "Name":null,
+        "Tags":null,
+        "Details":{
+            "Joined":"2020-01-01",
+            "Active":true
+        }
+    }],
+    "NestedObject":{
+        "Level1":{
+            "Level2":{
+                "Level3":{
+                    "Value":"deep",
+                    "List":[1,2,3],
+                    "Child":{
+                        "Key":"value",
+                        "Final":true
+                    }
+                }
+            }
+        }
+    },
+    "Dictionary":{
+        "Meta":{
+            "Author":"mark",
+            "Editor":"john"
+        },
+        "Title":"book",
+        "Tags":["novel","mystery","classic"],
+        "Published":{
+            "Year":1999,
+            "Languages":["en","fr","ar"]
+        },
+        "AnonymObject":{
+            "Years":"2 years",
+            "Color":"Green",
+            "Data":{
+                "Ids":[101,102,103],
+                "EmptyDict":{
+
+                },
+                "DeepNulls":{
+                  "one":null,
+                  "two":null
+                }
+            }
+        }
+    },
+    "SpecialCharacters":{
+        "Quote":""double quote"",
+        "Backslash":"\",
+        "Newline":"line\nbreak",
+        "Tab":"tab\tspace",
+        "UnicodeSmile":"☺",
+        "Arabic":"مرحبا",
+        "Chinese":"你好",
+        "Emoji":"💡"
+    }
+  }"
+}{
+  "Type":"RootObject",
+  "Data":"{
+    "String":"example",
+    "Number":12345,
+    "Float":123.456,
+    "BooleanTrue":true,
+    "BooleanFalse":false,
+    "NullValue":null,
+    "EmptyArray":[],
+    "ArrayOfNulls":[null,null,null],
+    "ArrayOfPrimitives":["a",1,false],
+    "ArrayOfArrays":[[1,2],["x","y"],[true,false]],
+    "ArrayOfObjects":[{
+        "Id":1,
+        "Name":"Alice",
+        "Tags":null,
+        "Details":null
+    },{
+        "Id":2,
+        "Name":"Bob",
+        "Tags":["dev","qa"],
+        "Details":null
+    },{
+        "Id":3,
+        "Name":null,
+        "Tags":null,
+        "Details":{
+            "Joined":"2020-01-01",
+            "Active":true
+        }
+    }],
+    "NestedObject":{
+        "Level1":{
+            "Level2":{
+                "Level3":{
+                    "Value":"deep",
+                    "List":[1,2,3],
+                    "Child":{
+                        "Key":"value",
+                        "Final":true
+                    }
+                }
+            }
+        }
+    },
+    "Dictionary":{
+        "Meta":{
+            "Author":"mark",
+            "Editor":"john"
+        },
+        "Title":"book",
+        "Tags":["novel","mystery","classic"],
+        "Published":{
+            "Year":1999,
+            "Languages":["en","fr","ar"]
+        },
+        "AnonymObject":{
+            "Years":"2 years",
+            "Color":"Green",
+            "Data":{
+                "Ids":[101,102,103],
+                "EmptyDict":{
+
+                },
+                "DeepNulls":{
+                  "one":null,
+                  "two":null
+                }
+            }
+        }
+    },
+    "SpecialCharacters":{
+        "Quote":""double quote"",
+        "Backslash":"\",
+        "Newline":"line\nbreak",
+        "Tab":"tab\tspace",
+        "UnicodeSmile":"☺",
+        "Arabic":"مرحبا",
+        "Chinese":"你好",
+        "Emoji":"💡"
+    }
+  }"
+}{
+  "Type":"RootObject",
+  "Data":"{
+    "String":"example",
+    "Number":12345,
+    "Float":123.456,
+    "BooleanTrue":true,
+    "BooleanFalse":false,
+    "NullValue":null,
+    "EmptyArray":[],
+    "ArrayOfNulls":[null,null,null],
+    "ArrayOfPrimitives":["a",1,false],
+    "ArrayOfArrays":[[1,2],["x","y"],[true,false]],
+    "ArrayOfObjects":[{
+        "Id":1,
+        "Name":"Alice",
+        "Tags":null,
+        "Details":null
+    },{
+        "Id":2,
+        "Name":"Bob",
+        "Tags":["dev","qa"],
+        "Details":null
+    },{
+        "Id":3,
+        "Name":null,
+        "Tags":null,
+        "Details":{
+            "Joined":"2020-01-01",
+            "Active":true
+        }
+    }],
+    "NestedObject":{
+        "Level1":{
+            "Level2":{
+                "Level3":{
+                    "Value":"deep",
+                    "List":[1,2,3],
+                    "Child":{
+                        "Key":"value",
+                        "Final":true
+                    }
+                }
+            }
+        }
+    },
+    "Dictionary":{
+        "Meta":{
+            "Author":"mark",
+            "Editor":"john"
+        },
+        "Title":"book",
+        "Tags":["novel","mystery","classic"],
+        "Published":{
+            "Year":1999,
+            "Languages":["en","fr","ar"]
+        },
+        "AnonymObject":{
+            "Years":"2 years",
+            "Color":"Green",
+            "Data":{
+                "Ids":[101,102,103],
+                "EmptyDict":{
+
+                },
+                "DeepNulls":{
+                  "one":null,
+                  "two":null
+                }
+            }
+        }
+    },
+    "SpecialCharacters":{
+        "Quote":""double quote"",
+        "Backslash":"\",
+        "Newline":"line\nbreak",
+        "Tab":"tab\tspace",
+        "UnicodeSmile":"☺",
+        "Arabic":"مرحبا",
+        "Chinese":"你好",
+        "Emoji":"💡"
+    }
+  }"
+}{
+  "Type":"RootObject",
+{
+  "Data":    "String":"example",
+    "Number":12345,
+    "Float":123.456,
+    "BooleanTrue":true,
+    "BooleanFalse":false,
+    "NullValue":null,
+    "EmptyArray":[],
+    "ArrayOfNulls":[null,null,null],
+    "ArrayOfPrimitives":["a",1,false],
+    "ArrayOfArrays":[[1,2],["x","y"],[true,false]],
+    "ArrayOfObjects":[{
+        "Id":1,
+        "Name":"Alice",
+        "Tags":null,
+        "Details":null
+    },{
+        "Id":2,
+        "Name":"Bob",
+        "Tags":["dev","qa"],
+        "Details":null
+    },{
+        "Id":3,
+        "Name":null,
+        "Tags":null,
+        "Details":{
+            "Joined":"2020-01-01",
+            "Active":true
+        }
+    }],
+    "NestedObject":{
+        "Level1":{
+            "Level2":{
+                "Level3":{
+                    "Value":"deep",
+                    "List":[1,2,3],
+                    "Child":{
+                        "Key":"value",
+                        "Final":true
+                    }
+                }
+            }
+        }
+    },
+    "Dictionary":{
+        "Meta":{
+            "Author":"mark",
+            "Editor":"john"
+        },
+        "Title":"book",
+        "Tags":["novel","mystery","classic"],
+        "Published":{
+            "Year":1999,
+            "Languages":["en","fr","ar"]
+        },
+        "AnonymObject":{
+            "Years":"2 years",
+            "Color":"Green",
+            "Data":{
+                "Ids":[101,102,103],
+                "EmptyDict":{
+
+                },
+                "DeepNulls":{
+                  "one":null,
+                  "two":null
+                }
+            }
+        }
+    },
+    "SpecialCharacters":{
+        "Quote":""double quote"",
+        "Backslash":"\",
+        "Newline":"line\nbreak",
+        "Tab":"tab\tspace",
+        "UnicodeSmile":"☺",
+        "Arabic":"مرحبا",
+        "Chinese":"你好",
+        "Emoji":"💡"
+    }
+  }
+}{
+  "Type":"RootObject",
+  "Data":{
+    "String":"example",
+    "Number":12345,
+    "Float":123.456,
+    "BooleanTrue":true,
+    "BooleanFalse":false,
+    "NullValue":null,
+    "EmptyArray":[],
+    "ArrayOfNulls":[null,null,null],
+    "ArrayOfPrimitives":["a",1,false],
+    "ArrayOfArrays":[[1,2],["x","y"],[true,false]],
+    "ArrayOfObjects":[{
+        "Id":1,
+        "Name":"Alice",
+        "Tags":null,
+        "Details":null
+    },{
+        "Id":2,
+        "Name":"Bob",
+        "Tags":["dev","qa"],
+        "Details":null
+    },{
+        "Id":3,
+        "Name":null,
+        "Tags":null,
+        "Details":{
+            "Joined":"2020-01-01",
+            "Active":true
+        }
+    }],
+    "NestedObject":{
+        "Level1":{
+            "Level2":{
+                "Level3":{
+                    "Value":"deep",
+                    "List":[1,2,3],
+                    "Child":{
+                        "Key":"value",
+                        "Final":true
+                    }
+                }
+            }
+        }
+    },
+    "Dictionary":{
+        "Meta":{
+            "Author":"mark",
+            "Editor":"john"
+        },
+        "Title":"book",
+        "Tags":["novel","mystery","classic"],
+        "Published":{
+            "Year":1999,
+            "Languages":["en","fr","ar"]
+        },
+        "AnonymObject":{
+            "Years":"2 years",
+            "Color":"Green",
+            "Data":{
+                "Ids":[101,102,103],
+                "EmptyDict":{
+
+                },
+                "DeepNulls":{
+                  "one":null,
+                  "two":null
+                }
+            }
+        }
+    },
+    "SpecialCharacters":{
+        "Quote":""double quote"",
+        "Backslash":"\",
+        "Newline":"line\nbreak",
+        "Tab":"tab\tspace",
+        "UnicodeSmile":"☺",
+        "Arabic":"مرحبا",
+        "Chinese":"你好",
+        "Emoji":"💡"
+    }
+  }
+}{
+  "Type":"RootObject",
+  "Data":{
+    "String":"example",
+    "Number":12345,
+    "Float":123.456,
+    "BooleanTrue":true,
+    "BooleanFalse":false,
+    "NullValue":null,
+    "EmptyArray":[],
+    "ArrayOfNulls":[null,null,null],
+    "ArrayOfPrimitives":["a",1,false],
+    "ArrayOfArrays":[[1,2],["x","y"],[true,false]],
+    "ArrayOfObjects":[{
+        "Id":1,
+        "Name":"Alice",
+        "Tags":null,
+        "Details":null
+    },{
+        "Id":2,
+        "Name":"Bob",
+        "Tags":["dev","qa"],
+        "Details":null
+    },{
+        "Id":3,
+        "Name":null,
+        "Tags":null,
+        "Details":{
+            "Joined":"2020-01-01",
+            "Active":true
+        }
+    }],
+    "NestedObject":{
+        "Level1":{
+            "Level2":{
+                "Level3":{
+                    "Value":"deep",
+                    "List":[1,2,3],
+                    "Child":{
+                        "Key":"value",
+                        "Final":true
+                    }
+                }
+            }
+        }
+    },
+    "Dictionary":{
+        "Meta":{
+            "Author":"mark",
+            "Editor":"john"
+        },
+        "Title":"book",
+        "Tags":["novel","mystery","classic"],
+        "Published":{
+            "Year":1999,
+            "Languages":["en","fr","ar"]
+        },
+        "AnonymObject":{
+            "Years":"2 years",
+            "Color":"Green",
+            "Data":{
+                "Ids":[101,102,103],
+                "EmptyDict":{
+
+                },
+                "DeepNulls":{
+                  "one":null,
+                  "two":null
+                }
+            }
+        }
+    },
+    "SpecialCharacters":{
+        "Quote":""double quote"",
+        "Backslash":"\",
+        "Newline":"line\nbreak",
+        "Tab":"tab\tspace",
+        "UnicodeSmile":"☺",
+        "Arabic":"مرحبا",
+        "Chinese":"你好",
+        "Emoji":"💡"
+    }
+  }
+}{
+  "Type":"RootObject",
+  "Data":{
+    "String":"example",
+    "Number":12345,
+    "Float":123.456,
+    "BooleanTrue":true,
+    "BooleanFalse":false,
+    "NullValue":null,
+    "EmptyArray":[],
+    "ArrayOfNulls":[null,null,null],
+    "ArrayOfPrimitives":["a",1,false],
+    "ArrayOfArrays":[[1,2],["x","y"],[true,false]],
+    "ArrayOfObjects":[{
+        "Id":1,
+        "Name":"Alice",
+        "Tags":null,
+        "Details":null
+    },{
+        "Id":2,
+        "Name":"Bob",
+        "Tags":["dev","qa"],
+        "Details":null
+    },{
+        "Id":3,
+        "Name":null,
+        "Tags":null,
+        "Details":{
+            "Joined":"2020-01-01",
+            "Active":true
+        }
+    }],
+    "NestedObject":{
+        "Level1":{
+            "Level2":{
+                "Level3":{
+                    "Value":"deep",
+                    "List":[1,2,3],
+                    "Child":{
+                        "Key":"value",
+                        "Final":true
+                    }
+                }
+            }
+        }
+    },
+    "Dictionary":{
+        "Meta":{
+            "Author":"mark",
+            "Editor":"john"
+        },
+        "Title":"book",
+        "Tags":["novel","mystery","classic"],
+        "Published":{
+            "Year":1999,
+            "Languages":["en","fr","ar"]
+        },
+        "AnonymObject":{
+            "Years":"2 years",
+            "Color":"Green",
+            "Data":{
+                "Ids":[101,102,103],
+                "EmptyDict":{
+
+                },
+                "DeepNulls":{
+                  "one":null,
+                  "two":null
+                }
+            }
+        }
+    },
+    "SpecialCharacters":{
+        "Quote":""double quote"",
+        "Backslash":"\",
+        "Newline":"line\nbreak",
+        "Tab":"tab\tspace",
+        "UnicodeSmile":"☺",
+        "Arabic":"مرحبا",
+        "Chinese":"你好",
+        "Emoji":"💡"
+    }
+  }
+}{
+  "Type":"RootObject",
+  "Data":{    "String":"example",    "Number":12345,    "Float":123.456,    "BooleanTrue":true,    "BooleanFalse":false,    "NullValue":null,    "EmptyArray":[],    "ArrayOfNulls":[null,null,null],    "ArrayOfPrimitives":["a",1,false],    "ArrayOfArrays":[[1,2],["x","y"],[true,false]],    "ArrayOfObjects":[{        "Id":1,        "Name":"Alice",        "Tags":null,        "Details":null    },{        "Id":2,        "Name":"Bob",        "Tags":["dev","qa"],        "Details":null    },{        "Id":3,        "Name":null,        "Tags":null,        "Details":{            "Joined":"2020-01-01",            "Active":true        }    }],    "NestedObject":{        "Level1":{            "Level2":{                "Level3":{                    "Value":"deep",                    "List":[1,2,3],                    "Child":{                        "Key":"value",                        "Final":true                    }                }            }        }    },    "Dictionary":{        "Meta":{            "Author":"mark",            "Editor":"john"        },        "Title":"book",        "Tags":["novel","mystery","classic"],        "Published":{            "Year":1999,            "Languages":["en","fr","ar"]        },        "AnonymObject":{            "Years":"2 years",            "Color":"Green",            "Data":{                "Ids":[101,102,103],                "EmptyDict":{                },                "DeepNulls":{                  "one":null,                  "two":null                }            }        }    },    "SpecialCharacters":{        "Quote":""double quote"",        "Backslash":"\",        "Newline":"line\nbreak",        "Tab":"tab\tspace",        "UnicodeSmile":"☺",        "Arabic":"مرحبا",        "Chinese":"你好",        "Emoji":"💡"    }  }
+}{
+  "Type":"RootObject",
+  "Data":{"String":"example","Number":12345,"Float":123.456,"BooleanTrue":true,"BooleanFalse":false,"NullValue":null,"EmptyArray":[],"ArrayOfNulls":[null,null,null],"ArrayOfPrimitives":["a",1,false],"ArrayOfArrays":[[1,2],["x","y"],[true,false]],"ArrayOfObjects":[{"Id":1,"Name":"Alice","Tags":null,"Details":null},{"Id":2,"Name":"Bob","Tags":["dev","qa"],"Details":null},{"Id":3,"Name":null,"Tags":null,"Details":{"Joined":"2020-01-01","Active":true}}],"NestedObject":{"Level1":{"Level2":{"Level3":{"Value":"deep","List":[1,2,3],"Child":{"Key":"value","Final":true}}}}},"Dictionary":{"Meta":{"Author":"mark","Editor":"john"},"Title":"book","Tags":["novel","mystery","classic"],"Published":{"Year":1999,"Languages":["en","fr","ar"]},"AnonymObject":{"Years":"2 years","Color":"Green","Data":{"Ids":[101,102,103],"EmptyDict":{},"DeepNulls":{"one":null,"two":null}}}},"SpecialCharacters":{"Quote":""double quote"","Backslash":"\","Newline":"line\nbreak","Tab":"tab\tspace","UnicodeSmile":"☺","Arabic":"مرحبا","Chinese":"你好","Emoji":"💡"}}
+}{  "Type":"RootObject",  "Data":{"String":"example","Number":12345,"Float":123.456,"BooleanTrue":true,"BooleanFalse":false,"NullValue":null,"EmptyArray":[],"ArrayOfNulls":[null,null,null],"ArrayOfPrimitives":["a",1,false],"ArrayOfArrays":[[1,2],["x","y"],[true,false]],"ArrayOfObjects":[{"Id":1,"Name":"Alice","Tags":null,"Details":null},{"Id":2,"Name":"Bob","Tags":["dev","qa"],"Details":null},{"Id":3,"Name":null,"Tags":null,"Details":{"Joined":"2020-01-01","Active":true}}],"NestedObject":{"Level1":{"Level2":{"Level3":{"Value":"deep","List":[1,2,3],"Child":{"Key":"value","Final":true}}}}},"Dictionary":{"Meta":{"Author":"mark","Editor":"john"},"Title":"book","Tags":["novel","mystery","classic"],"Published":{"Year":1999,"Languages":["en","fr","ar"]},"AnonymObject":{"Years":"2 years","Color":"Green","Data":{"Ids":[101,102,103],"EmptyDict":{},"DeepNulls":{"one":null,"two":null}}}},"SpecialCharacters":{"Quote":""double quote"","Backslash":"\","Newline":"line\nbreak","Tab":"tab\tspace","UnicodeSmile":"☺","Arabic":"مرحبا","Chinese":"你好","Emoji":"💡"}}}{"Type":"RootObject",  "Data":{"String":"example","Number":12345,"Float":123.456,"BooleanTrue":true,"BooleanFalse":false,"NullValue":null,"EmptyArray":[],"ArrayOfNulls":[null,null,null],"ArrayOfPrimitives":["a",1,false],"ArrayOfArrays":[[1,2],["x","y"],[true,false]],"ArrayOfObjects":[{"Id":1,"Name":"Alice","Tags":null,"Details":null},{"Id":2,"Name":"Bob","Tags":["dev","qa"],"Details":null},{"Id":3,"Name":null,"Tags":null,"Details":{"Joined":"2020-01-01","Active":true}}],"NestedObject":{"Level1":{"Level2":{"Level3":{"Value":"deep","List":[1,2,3],"Child":{"Key":"value","Final":true}}}}},"Dictionary":{"Meta":{"Author":"mark","Editor":"john"},"Title":"book","Tags":["novel","mystery","classic"],"Published":{"Year":1999,"Languages":["en","fr","ar"]},"AnonymObject":{"Years":"2 years","Color":"Green","Data":{"Ids":[101,102,103],"EmptyDict":{},"DeepNulls":{"one":null,"two":null}}}},"SpecialCharacters":{"Quote":""double quote"","Backslash":"\","Newline":"line\nbreak","Tab":"tab\tspace","UnicodeSmile":"☺","Arabic":"مرحبا","Chinese":"你好","Emoji":"💡"}}}{"Type":"RootObject","Data":{"String":"example","Number":12345,"Float":123.456,"BooleanTrue":true,"BooleanFalse":false,"NullValue":null,"EmptyArray":[],"ArrayOfNulls":[null,null,null],"ArrayOfPrimitives":["a",1,false],"ArrayOfArrays":[[1,2],["x","y"],[true,false]],"ArrayOfObjects":[{"Id":1,"Name":"Alice","Tags":null,"Details":null},{"Id":2,"Name":"Bob","Tags":["dev","qa"],"Details":null},{"Id":3,"Name":null,"Tags":null,"Details":{"Joined":"2020-01-01","Active":true}}],"NestedObject":{"Level1":{"Level2":{"Level3":{"Value":"deep","List":[1,2,3],"Child":{"Key":"value","Final":true}}}}},"Dictionary":{"Meta":{"Author":"mark","Editor":"john"},"Title":"book","Tags":["novel","mystery","classic"],"Published":{"Year":1999,"Languages":["en","fr","ar"]},"AnonymObject":{"Years":"2 years","Color":"Green","Data":{"Ids":[101,102,103],"EmptyDict":{},"DeepNulls":{"one":null,"two":null}}}},"SpecialCharacters":{"Quote":""double quote"","Backslash":"\","Newline":"line\nbreak","Tab":"tab\tspace","UnicodeSmile":"☺","Arabic":"مرحبا","Chinese":"你好","Emoji":"💡"}}}{
+"Type":"RootObject",
+"Data":{
+"String":"example",
+"Number":12345,
+"Float":123.456,
+"BooleanTrue":true,
+"BooleanFalse":false,
+"NullValue":null,
+"EmptyArray":[],
+"ArrayOfNulls":[null,null,null],
+"ArrayOfPrimitives":["a",1,false],
+"ArrayOfArrays":[[1,2],["x","y"],[true,false]],
+"ArrayOfObjects":[{
+"Id":1,
+"Name":"Alice",
+"Tags":null,
+"Details":null
+},{
+"Id":2,
+"Name":"Bob",
+"Tags":["dev","qa"],
+"Details":null
+},{
+"Id":3,
+"Name":null,
+"Tags":null,
+"Details":{
+"Joined":"2020-01-01",
+"Active":true
+}
+}],
+"NestedObject":{
+"Level1":{
+"Level2":{
+"Level3":{
+"Value":"deep",
+"List":[1,2,3],
+"Child":{
+"Key":"value",
+"Final":true
+}
+}
+}
+}
+},
+"Dictionary":{
+"Meta":{
+"Author":"mark",
+"Editor":"john"
+},
+"Title":"book",
+"Tags":["novel","mystery","classic"],
+"Published":{
+"Year":1999,
+"Languages":["en","fr","ar"]
+},
+"AnonymObject":{
+"Years":"2 years",
+"Color":"Green",
+"Data":{
+"Ids":[101,102,103],
+"EmptyDict":{
+
+},
+"DeepNulls":{
+"one":null,
+"two":null
+}
+}
+}
+},
+"SpecialCharacters":{
+"Quote":""double quote"",
+"Backslash":"\",
+"Newline":"line\nbreak",
+"Tab":"tab\tspace",
+"UnicodeSmile":"☺",
+"Arabic":"مرحبا",
+"Chinese":"你好",
+"Emoji":"💡"
+}
+}
+}{
+  "Type":"RootObject",
+  "Data":{
+    "String":"example",
+    "Number":12345,
+    "Float":123.456,
+    "BooleanTrue":true,
+    "BooleanFalse":false,
+    "NullValue":null,
+    "EmptyArray":[],
+    "ArrayOfNulls":[null,null,null],
+    "ArrayOfPrimitives":["a",1,false],
+    "ArrayOfArrays":[[1,2],["x","y"],[true,false]],
+    "ArrayOfObjects":[{
+        "Id":1,
+        "Name":"Alice",
+        "Tags":null,
+        "Details":null
+    },{
+        "Id":2,
+        "Name":"Bob",
+        "Tags":["dev","qa"],
+        "Details":null
+    },{
+        "Id":3,
+        "Name":null,
+        "Tags":null,
+        "Details":{
+            "Joined":"2020-01-01",
+            "Active":true
+        }
+    }],
+    "NestedObject":{
+        "Level1":{
+            "Level2":{
+                "Level3":{
+                    "Value":"deep",
+                    "List":[1,2,3],
+                    "Child":{
+                        "Key":"value",
+                        "Final":true
+                    }
+                }
+            }
+        }
+    },
+    "Dictionary":{
+        "Meta":{
+            "Author":"mark",
+            "Editor":"john"
+        },
+        "Title":"book",
+        "Tags":["novel","mystery","classic"],
+        "Published":{
+            "Year":1999,
+            "Languages":["en","fr","ar"]
+        },
+        "AnonymObject":{
+            "Years":"2 years",
+            "Color":"Green",
+            "Data":{
+                "Ids":[101,102,103],
+                "EmptyDict":{
+
+                },
+                "DeepNulls":{
+                  "one":null,
+                  "two":null
+                }
+            }
+        }
+    },
+    "SpecialCharacters":{
+        "Quote":""double quote"",
+        "Backslash":"\",
+        "Newline":"line\nbreak",
+        "Tab":"tab\tspace",
+        "UnicodeSmile":"☺",
+        "Arabic":"مرحبا",
+        "Chinese":"你好",
+        "Emoji":"💡"
+    }
+  }
+}

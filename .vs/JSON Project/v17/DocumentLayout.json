@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{573961DB-BAEA-485A-898A-2348DC2752F5}|Unit Testing\\Unit Testing.csproj|c:\\users\\shadow\\source\\repos\\serialize \u0026 deserialize project - json\\unit testing\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{573961DB-BAEA-485A-898A-2348DC2752F5}|Unit Testing\\Unit Testing.csproj|solutionrelative:unit testing\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD803E3-F856-429E-B999-74C7012F998B}|Serialization \u0026 Deserialization\\Serialization \u0026 Deserialization.csproj|c:\\users\\shadow\\source\\repos\\serialize \u0026 deserialize project - json\\serialization \u0026 deserialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD803E3-F856-429E-B999-74C7012F998B}|Serialization \u0026 Deserialization\\Serialization \u0026 Deserialization.csproj|solutionrelative:serialization \u0026 deserialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{573961DB-BAEA-485A-898A-2348DC2752F5}|Unit Testing\\Unit Testing.csproj|c:\\users\\shadow\\source\\repos\\serialize \u0026 deserialize project - json\\unit testing\\testing classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{573961DB-BAEA-485A-898A-2348DC2752F5}|Unit Testing\\Unit Testing.csproj|solutionrelative:unit testing\\testing classes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{573961DB-BAEA-485A-898A-2348DC2752F5}|Unit Testing\\Unit Testing.csproj|c:\\users\\shadow\\source\\repos\\serialize \u0026 deserialize project - json\\unit testing\\unit testing.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{573961DB-BAEA-485A-898A-2348DC2752F5}|Unit Testing\\Unit Testing.csproj|solutionrelative:unit testing\\unit testing.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD803E3-F856-429E-B999-74C7012F998B}|Serialization \u0026 Deserialization\\Serialization \u0026 Deserialization.csproj|c:\\users\\shadow\\source\\repos\\serialize \u0026 deserialize project - json\\serialization \u0026 deserialization\\myjsonserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD803E3-F856-429E-B999-74C7012F998B}|Serialization \u0026 Deserialization\\Serialization \u0026 Deserialization.csproj|solutionrelative:serialization \u0026 deserialization\\myjsonserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD803E3-F856-429E-B999-74C7012F998B}|Serialization \u0026 Deserialization\\Serialization \u0026 Deserialization.csproj|c:\\users\\shadow\\source\\repos\\serialize \u0026 deserialize project - json\\serialization \u0026 deserialization\\myserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD803E3-F856-429E-B999-74C7012F998B}|Serialization \u0026 Deserialization\\Serialization \u0026 Deserialization.csproj|solutionrelative:serialization \u0026 deserialization\\myserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD803E3-F856-429E-B999-74C7012F998B}|Serialization \u0026 Deserialization\\Serialization \u0026 Deserialization.csproj|c:\\users\\shadow\\source\\repos\\serialize \u0026 deserialize project - json\\serialization \u0026 deserialization\\myjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD803E3-F856-429E-B999-74C7012F998B}|Serialization \u0026 Deserialization\\Serialization \u0026 Deserialization.csproj|solutionrelative:serialization \u0026 deserialization\\myjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 198,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MySerializer.cs",
+              "DocumentMoniker": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\Serialization \u0026 Deserialization\\MySerializer.cs",
+              "RelativeDocumentMoniker": "Serialization \u0026 Deserialization\\MySerializer.cs",
+              "ToolTip": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\Serialization \u0026 Deserialization\\MySerializer.cs",
+              "RelativeToolTip": "Serialization \u0026 Deserialization\\MySerializer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T09:50:30.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyJSONSerializer.cs",
+              "DocumentMoniker": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\Serialization \u0026 Deserialization\\MyJSONSerializer.cs",
+              "RelativeDocumentMoniker": "Serialization \u0026 Deserialization\\MyJSONSerializer.cs",
+              "ToolTip": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\Serialization \u0026 Deserialization\\MyJSONSerializer.cs",
+              "RelativeToolTip": "Serialization \u0026 Deserialization\\MyJSONSerializer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAD4vzAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T09:45:21.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyJson.cs",
+              "DocumentMoniker": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\Serialization \u0026 Deserialization\\MyJson.cs",
+              "RelativeDocumentMoniker": "Serialization \u0026 Deserialization\\MyJson.cs",
+              "ToolTip": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\Serialization \u0026 Deserialization\\MyJson.cs",
+              "RelativeToolTip": "Serialization \u0026 Deserialization\\MyJson.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAAAOQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T09:22:25.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Unit Testing.csproj",
+              "DocumentMoniker": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\Unit Testing\\Unit Testing.csproj",
+              "RelativeDocumentMoniker": "Unit Testing\\Unit Testing.csproj",
+              "ToolTip": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\Unit Testing\\Unit Testing.csproj",
+              "RelativeToolTip": "Unit Testing\\Unit Testing.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-29T08:42:54.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Testing Classes.cs",
+              "DocumentMoniker": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\Unit Testing\\Testing Classes.cs",
+              "RelativeDocumentMoniker": "Unit Testing\\Testing Classes.cs",
+              "ToolTip": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\Unit Testing\\Testing Classes.cs",
+              "RelativeToolTip": "Unit Testing\\Testing Classes.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAIA1wMwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T08:41:02.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\Unit Testing\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Unit Testing\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\Unit Testing\\UnitTest1.cs",
+              "RelativeToolTip": "Unit Testing\\UnitTest1.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAHQAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T08:40:41.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\Serialization \u0026 Deserialization\\Program.cs",
+              "RelativeDocumentMoniker": "Serialization \u0026 Deserialization\\Program.cs",
+              "ToolTip": "C:\\Users\\Shadow\\source\\repos\\Serialize \u0026 Deserialize Project - JSON\\Serialization \u0026 Deserialization\\Program.cs",
+              "RelativeToolTip": "Serialization \u0026 Deserialization\\Program.cs",
+              "ViewState": "AgIAANkAAAAAAAAAAAAAAFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T08:39:46.972Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

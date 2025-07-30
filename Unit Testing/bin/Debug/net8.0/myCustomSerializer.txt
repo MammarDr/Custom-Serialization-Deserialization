@@ -1,0 +1,18 @@
+{
+  "Type":"Product",
+  "Data":{
+    "ProductId":"3c21492d-edb4-4acc-97fd-03e06289746f",
+    "Label":"Laptop",
+    "Description":"High-end gaming laptop",
+    "Price":1499.99,
+    "SKU":"EL-2023",
+    "IsAvailable":true,
+    "Categories":["catElectronics","catGaming"],
+    "Features":["featureRGB","featureCooling"],
+    "Ratings":[5,4,4,5],
+    "Metadata":{
+        "Warranty":"2 years",
+        "Color":"Black"
+    }
+  }
+}
