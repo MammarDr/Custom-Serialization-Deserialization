@@ -106,8 +106,8 @@ Product product1 = new Product
     SKU = "EL-2023",
     IsAvailable = true,
     InternalNotes = "Check supplier ID 3345",
-    Categories = new List<string> { "catElectronics", "catGaming" },
-    Features = new object[] { "featureRGB", "featureCooling" },
+    Categories = new List<string> { "Electronics", "gaming" },
+    Features = new object[] { "RGB", "Cooling" },
     Ratings = new int[] { 5, 4, 4, 5 },
     Metadata = new { Warranty = "2 years", Color = "Black" }
 };
@@ -133,8 +133,8 @@ Product 01 :
     "Price" : 1499.99,
     "SKU" : "EL-2023",
     "IsAvailable" : true,
-    "Categories" : ["catElectronics","catGaming"],
-    "Features" : ["featureRGB","featureCooling"],
+    "Categories" : ["Electronics","Gaming"],
+    "Features" : ["RGB","Cooling"],
     "Ratings" : [5,4,4,5],
     "Metadata" : {
       "Warranty" : "2 years",
