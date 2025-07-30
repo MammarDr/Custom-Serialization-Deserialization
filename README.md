@@ -106,7 +106,7 @@ Product product1 = new Product
     SKU = "EL-2023",
     IsAvailable = true,
     InternalNotes = "Check supplier ID 3345",
-    Categories = new List<string> { "Electronics", "gaming" },
+    Categories = new List<string> { "Electronics", "Gaming" },
     Features = new object[] { "RGB", "Cooling" },
     Ratings = new int[] { 5, 4, 4, 5 },
     Metadata = new { Warranty = "2 years", Color = "Black" }
